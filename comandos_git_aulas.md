@@ -7,7 +7,7 @@ git config --global user.name 'Daniel Pinheiro'<br>
 git config --global user.email 'dyelzim@gmail.com'
 ```
 
-> - Configurando o nome do usuário e email: <br>
+> - Configurando o nome do usuário e email. <br>
 > - A partir desse comando todas as alterações e atualizações no git irão aparecer o autor e peródo que foram realizadas.
 
 ## _Repositórios:_
@@ -22,9 +22,9 @@ git init
 git status
 ```
 
-> - Criando um arquivo ‘arquivo.txt’ na pasta verificaremos se houve algum commit;
+> - Criando um arquivo **‘arquivo.txt’** na pasta verificaremos se houve algum commit.
 > - Verifica se a branch que você se encontra possui commits (atualizações) a serem feitos e se há algum processo pendente dando dicas sobre o qual o próximo passo a ser realizado.
-> - Resumindo ele faz um gerenciamento dos processos;
+> - Resumindo ele faz um gerenciamento dos processos.
 
 ```
 git add arquivo.txt
@@ -33,14 +33,14 @@ git add .
 
 > - Após verificar que houve uma atualização no repositório adicionaremos o comando add para irem para o processo de commit.
 > - Preparando (empacotando) o que irá ser comitado.
-> - Pode ser adicionado todos os arquivos (**_git add ._**) ou individulamente (**_git add arquivo.txt_**)
+> - Pode ser adicionado todos os arquivos (**_git add ._**) ou individulamente (**_git add arquivo.txt_**).
 
 ```
 git rm --cached arquivo.txt
 ```
 
-> - Caso queira desfazer a ultima ação:
-> - Voltar ao estágio anterior
+> - Caso queira desfazer a ultima ação.
+> - Voltar ao estágio anterior.
 
 ```
 git commit -m "mensagem relacionada ao commit"
@@ -53,9 +53,9 @@ git commit -m "mensagem relacionada ao commit"
 git log
 ```
 
-> - Histórico dos seus comits mostrando um hash, branch dos seus comits, local, data, autor.
+> - Histórico dos seus comits mostrando um _hash, branch dos seus comits, local, data, autor._
 
-## Ramificação:
+## _Ramificação:_
 
 ```
 git branch
@@ -68,8 +68,8 @@ git branch
 git branch nome_da_branch
 ```
 
-> - Criar uma nova branch
-> - Usar nome específico para a funcionalidade dela
+> - Criar uma nova branch.
+> - Usar nome específico para a funcionalidade dela.
 > - Evitar letras maiúsculas, caracteres especiais e caso necessário, separar com traço ou underline.
 
 ```
@@ -99,7 +99,7 @@ git merge nome_da_branch
 > - Primeiramente se direcionar para a branch a ser atualizada usando o git checkout.
 > - Logo após realizar o merge fazendo a atualização do arquivo.
 
-## Criando repositório
+## _Criando repositório:_
 
 ```
 git clone codigo_copiado
@@ -107,14 +107,14 @@ git clone codigo_copiado
 
 ### Clonando o repositório através da chave SSH no git bash:
 
-> - Após criar o repositório no _github_ clicamos em CODE e selecinando a opção SSH copiamos o código.
+> - Após criar o repositório no _github_ clicamos em **CODE** e selecinando a opção SSH copiamos o código.
 > - Abrindo o gitbash dentro da pasta onde vai ser salvo os arquivos do projeto digitamos **_gitclone_** mais o código copiado.
 
 ```
 git remote -v
 ```
 
-> - Visualizar os repositórios remotos
+> - Visualizar os repositórios remotos.
 
 ```
 git push
