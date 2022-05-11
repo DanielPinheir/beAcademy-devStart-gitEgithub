@@ -105,7 +105,7 @@ git merge nome_da_branch
 git clone codigo_copiado
 ```
 
-### Clonando o repositório através da chave SSH no git bash:
+## _Clonando o repositório através da chave SSH no git bash:_
 
 > - Após criar o repositório no _github_ clicamos em **CODE** e selecinando a opção SSH copiamos o código.
 > - Abrindo o gitbash dentro da pasta onde vai ser salvo os arquivos do projeto digitamos **_gitclone_** mais o código copiado.
