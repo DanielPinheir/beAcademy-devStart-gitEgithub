@@ -47,7 +47,13 @@ git commit -m "mensagem relacionada ao commit"
 ```
 
 > - Agora chegou a hora de comitar após criar ou atualizar um arquivo no repositório.
-> - A mensagem geralmente é algo que tenha alguma ligação e influência com o commit.
+> - A mensagem (-m) geralmente é algo que tenha alguma ligação e influência com o commit.
+
+```
+git stash
+```
+
+> - Salva alterações sem commit.
 
 ```
 git log
