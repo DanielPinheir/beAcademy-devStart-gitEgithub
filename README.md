@@ -55,9 +55,15 @@ git commit -m "mensagem relacionada ao commit"
 
 ```
 git stash
+git stash pop
+git stash list
+git stash pop stash@{1}
 ```
 
 > - Salva alterações sem commit.
+> - Restaura alterações salvas.
+> - Lista as stashs.
+> - Aplica stash específica.
 
 ```
 git log
