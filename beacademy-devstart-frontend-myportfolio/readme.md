@@ -1,4 +1,10 @@
-> ## Projeto do módulo de **_Front-end_** do programa **_Dev Start Paylivre_** realizado em parceria com a **_Be. Academy_**.
+> ## Projeto do módulo de _Front-end_
+
+ <br>
+
+### =>Projeto do módulo de **_Front-end_** do programa **_Dev Start Paylivre_** realizado em parceria com a **_Be. Academy_**.
+
+<br>
 
 ### Objetivo final:
 

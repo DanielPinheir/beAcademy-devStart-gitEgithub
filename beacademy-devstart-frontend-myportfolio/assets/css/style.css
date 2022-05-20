@@ -248,6 +248,7 @@ header .container nav .menu-social {
 .s-cases .container .cases {
   display: flex;
   width: 100%;
+  gap: 0.8rem;
 }
 
 .s-cases .container .cases .case img {
