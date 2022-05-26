@@ -4,11 +4,9 @@
 Algoritmo "TABUADA MULTIPLICAR"
 // Lógica de Programação 
 // Professor   : Marcos Monteiro 
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 08/04/2022
+// Descrição   : Tabuada de multiplicar usando o para
+// Autor(a)    : Daniel Pinheiro
+
 Var
    i: inteiro
    tabuada: inteiro
